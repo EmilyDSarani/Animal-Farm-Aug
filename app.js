@@ -1,3 +1,5 @@
+
+
 const h1El = document.getElementById('animal-quote')
 
 
@@ -8,6 +10,7 @@ dogEl.addEventListener('click', () => {
     dogSound.play();
     h1El.textContent = "No one appreciates the very special genius of your conversation as much as the dog does";
 });
+
 
 const catEl = document.getElementById('kitty-button');
 const catSound = document.getElementById('kitty-sound');
