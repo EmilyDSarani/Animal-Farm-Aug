@@ -111,3 +111,13 @@ footer {
     }
 
   }
+
+  .select img{
+    cursor:pointer;
+  transition: all .3s ease-in-out;
+}
+
+.select img:hover{
+transform: scale(.65);
+}
+
