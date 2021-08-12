@@ -12,3 +12,11 @@ const catSound = document.getElementById('kitty-sound');
 catEl.addEventListener('click', () => {
     catSound.play();
 });
+
+const horseEl = document.getElementById('horsey-button');
+const horseSound = document.getElementById('horsey-sound');
+
+horseEl.addEventListener('click', () => {
+    horseSound.play();
+});
+
